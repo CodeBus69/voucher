@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* { 
+    font-family: 'Lato', sans-serif;
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.bon { 
+    position: absolute; 
+    top: 50%; left: 50%; 
+    transform: translate(-50%, -50%);
+    height: 450px; width: 750px;
+    box-shadow: 5px 5px 35px black;
+    border: 8px solid goldenrod; 
+    outline: 8px solid white;
+}
+
+h1 { 
+    position: absolute;
+    font-size: 50px;
+    left: 50%; 
+    transform: translate(-50%,50%);   
+}
+
+h2 { 
+    font-size: 20px;
+    text-align: center  ;
+}
+
+form { 
+    width: 90%; height: 100%;
+    position: absolute;
+    top: 55%; left: 50%; 
+    transform: translate(-50%, -50%);
+}
+input { 
+    width: 100%;
+    border: none; 
+    border-bottom: 2px solid black;
+    margin: 5px 0;
+    text-align: center;
+}
+
+input:focus { 
+    border: none; 
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.center { 
+    width: 80%;
+    position: absolute;
+    top: 30%; left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.left, .right { 
+    width: 25%;
+}
+
+.left { 
+    position: absolute; 
+    left: 0; bottom: 40%;
+}
+
+.right { 
+    position: absolute; 
+    right: 0; bottom: 40%;
+}
+
+img { 
+    height: 150px; width: 150px;
+    position: absolute;
+    left: 50%; top: 55%; 
+    transform: translate(-50%, 0);
+    z-index: -1;
+}
+
+.socialMedia { 
+    width: 90%;  height: 20%; 
+    position: absolute;
+    bottom: 10%; left: 50%; 
+    transform: translate(-50%, 0);
+}
